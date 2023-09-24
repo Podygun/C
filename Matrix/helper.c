@@ -7,5 +7,3 @@ void cout(const wchar_t *message)
 {
     wprintf(L"%ls", message);
 }
-
-

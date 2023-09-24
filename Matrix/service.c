@@ -1,18 +1,20 @@
+void PrintSeparator()
+{
+    cout(L"\n\n==============================================================\n\n");
+}
 
 void Start()
 {
-    cout(L"Разработчик: Влад Pody\n");
-    cout(L"Группа: ИВТ-13\n");
+    cout(L"Developer: Vlad Pody\n");
+    // cout(L"Group: ИВТ-13\n");
     PrintSeparator();
 }
 
 void End()
 {
-    cout(L"\nЛюбая кнопка чтобы выйти ...");
-    _getch();
-}
 
-void PrintSeparator()
-{
-    cout(L"==============================================================\n\n");
+    PrintSeparator();
+    cout(L"Exiting...");
+    // cout(L"\nЛюбая кнопка чтобы выйти ...");
+    //_getch();
 }
